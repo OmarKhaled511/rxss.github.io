@@ -416,10 +416,6 @@ patterns:
     name: Beamer
     regex: (?i)(?:beamer).{0,40}\b([a-zA-Z0-9_+/]{45}=)
 - pattern:
-    confidence: 98
-    name: Bearer token
-    regex: (bearer).+
-- pattern:
     confidence: 100
     name: Beebole
     regex: (?i)(?:beebole).{0,40}\b([0-9a-z]{40})\b
